@@ -5,18 +5,18 @@ def suma(lista):
     return suma
     
 def mayor(lista):
-    may=lista[0]
+    mayor=lista[0]
     for x in range(1,len(lista)):
-        if lista[x]>may:
-            may=lista[x]
-    return may
+        if lista[x]>mayor:
+            mayor=lista[x]
+    return mayor
     
 def menor(lista):
-    men=lista[0]
+    menor=lista[0]
     for x in range(1,len(lista)):
-        if lista[x]<men:
-            men=lista[x]
-    return men
+        if lista[x]<menor:
+            menor=lista[x]
+    return menor
     
 listaoriginal=[23,56,12,47,89,85,100,63,97,2,852]
 print("Lista original: ",listaoriginal)
